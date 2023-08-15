@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+.container{
+border: 2px solid #1ffb2a ;
+width: 30%;
+height: 400PX;
+text-align: center;
+margin: 20px;
+margin-left: 400PX;
+margin-top: 100PX;
+border-radius: 20px;
+background-image: linear-gradient(white,#1ffb2a );
+box-shadow: 10PX 20PX 25PX rgba(0, 0, 0, 0.815);
+}
+.boximg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.boximg img{
+    width: 90%;
+    height: 40vh;
+    margin-top: 10px;
+    }
+.boximg img:hover{
+    transform: scale(1.1);
+    transition:0.3s ;
+    border-radius: 30px;
+    
+}
+.bouton{
+    margin: 20px;
+    margin-left: 100px;
+    
+}
+
+.bouton button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 10% ;
+    background-color: #1ffb2a;
+    color: white;
+}
+
+ 
+    
